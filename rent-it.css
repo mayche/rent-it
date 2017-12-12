@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+	width: auto;
+	height: 40px;
+	background-color: orange;	
+}
+.call {
+	color: white;
+	text-align: center;
+	word-spacing: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu {
+	width: auto;
+	height: 80px;
+	background-color: #363738;
+	text-align: center;
+	word-spacing: 50px;
+	padding-top: 65px;
+	display: block;
+}
+.menu li a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+}
+.menu a:hover{
+	color: orange;
+}
+
+.post {
+	color: solid gray
+	background-color: #424041;
+	border-color: 2px solid white;
+	border-radius: 50px; 
+}
+.post p{
+	word-spacing: none;
+}
+.images {
+	position: relative;
+	top: 0;
+  	left: 0;
+}
+.img-background{
+	background-color: black;
+}
+.img-background img{
+	width: 100%;
+	opacity: 0.5;
+	position: relative;
+	top: 0;
+  	left: 0;
+}
+.logo{
+	position: absolute;
+	top: 35%;
+  	left: 50%;
+}
+h3{
+	position: absolute;
+	top: 50%;
+  	left: 48%;
+  	color: #f4f4f4;
+  	size: 30px;
+}
+.input {
+	position: absolute;
+	border-radius: none;
+	top: 55%;
+  	left: 45%;
+  	height: 20px;
+}
+.look {
+	border-radius:0;
+}
+.search {
+	background-color:#930216;
+	margin: 0;
+}
+.text {
+	text-align: center;
+	padding-top: 50px;
+	width: 60%;
+	height: 300px;
+	text-align: center;
+	padding-left: 20%;
+}
+.text li{
+	list-style: none;
+	color: #a7adb7;
+	margin-top: 20px;
+	size: 8px;
+}
+.feature-new {
+	padding-bottom: 30px;
+}
+.feature-new p {
+	text-align: left;
+	padding-top: 50px 0 50px 0;
+	float: left;
+	size: 10px;
+}
+.feature-new li a{
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	size: 10px;
+}
+.feature {
+	display: inline-block;
+	vertical-align: right;
+	float: right;
+}
+.new {
+	display: inline-block;
+	vertical-align: right;
+	float: right;
+	padding: 0 10px 0 20px;
+}
+.items img{
+	float: left;
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding-bottom: 60px;
+	border:1px #d2d4d8;
+	border-style: outset;
+}
+.items img:first-child{
+	margin-left: 0;
+}
+.more {
+	width: 245px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	border:1px #d2d4d8;
+	border-style: outset;
+	display: inline-block;
+	background-color: #ce314e;
+}
+.more h5 {
+	color: white;
+	margin-top: 65%;
+}
+.social-media-icons.{
+.social-media-icons.
+	
+}
