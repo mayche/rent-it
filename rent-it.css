@@ -39,14 +39,26 @@
 .menu a:hover{
 	color: orange;
 }
-
 .post {
-	color: solid gray
-	background-color: #424041;
+	color: #ffffff;
+	background-color: black;
 	border-color: 2px solid white;
 	border-radius: 50px; 
+	height: 40px;
+	margin-left: 150px;
 }
 .post p{
+	word-spacing: 2px;
+}
+.bebe {
+	border-color: 2px solid white;
+	border-radius: 100px; 
+	height: 60px;
+	width: 60px;
+	background: url(bebe.jpg); 
+	background-size: 100%;
+}
+.menu button {
 	word-spacing: none;
 }
 .images {
@@ -85,9 +97,11 @@ h3{
 }
 .look {
 	border-radius:0;
+	padding-right: -2px;
 }
 .search {
-	background-color:#930216;
+	background-color: #dd0f0f;
+	color: white;
 	margin: 0;
 }
 .text {
@@ -113,12 +127,14 @@ h3{
 	float: left;
 	size: 10px;
 }
-.feature-new li a{
+.feature-new li a:hover{
 	text-decoration: none;
 	list-style: none;
 	text-align: right;
 	size: 10px;
+	color: orange
 }
+
 .feature {
 	display: inline-block;
 	vertical-align: right;
@@ -138,9 +154,147 @@ h3{
 	padding-bottom: 60px;
 	border:1px #d2d4d8;
 	border-style: outset;
+	position: relative;
+	top: 0;
+  	left: 0;
 }
 .items img:first-child{
 	margin-left: 0;
+}
+.one h4{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1245px;
+	left: 180px; 
+	color: #ffffff;
+}
+.one h3{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1280px;
+	left: 240px; 
+	color: black;
+}
+.one h6{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1305px;
+	left: 192px; 
+	color: darkgray;
+}
+.two h4{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1245px;
+	left: 440px; 
+	color: #ffffff;
+}
+.two h3{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1280px;
+	left: 500px; 
+	color: black;
+}
+.two h6{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1305px;
+	left: 445px; 
+	color: darkgray;
+}
+.three h4{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1245px;
+	left: 700px; 
+	color: #ffffff;
+}
+.three h3{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1280px;
+	left: 730px; 
+	color: black;
+}
+.three h6{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1305px;
+	left: 703px; 
+	color: darkgray;
+}
+.four h4{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1505px;
+	left: 180px; 
+	color: #ffffff;
+}
+.four h3{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1545px;
+	left: 210px; 
+	color: black;
+}
+.four h6{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1567px;
+	left: 194px; 
+	color: darkgray;
+}
+.five h4{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1505px;
+	left: 440px; 
+	color: #ffffff;
+}
+.five h3{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1545px;
+	left: 440px; 
+	color: black;
+}
+.five h6{
+	width: 245px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	position:absolute;
+	top: 1567px;
+	left: 438px; 
+	color: darkgray;
 }
 .more {
 	width: 245px;
@@ -155,7 +309,100 @@ h3{
 	color: white;
 	margin-top: 65%;
 }
-.social-media-icons.{
-.social-media-icons.
-	
+.image-3{
+	background-color: orange;
+	height: 300px;
+	margin-top: 360px;
+}
+.image-3 img{
+	width: 50%;
+	height: 300px;
+	opacity: 0.5;
+}
+.notifications h4{
+	position:absolute;
+	top: 1710px;
+	left: 740px; 
+	color: #f7f6f4;
+}
+.notifications li{
+	text-decoration-line: none;
+	list-style-type: none;
+	position:absolute;
+	top: 1740px;
+	left: 740px; 
+	margin-top: 15px;
+	color: #eae4da;
+}
+.johndoe {
+	position: absolute;
+	border-radius: none;
+	top: 1840px;
+  	left: 780;
+  	height: 40px;
+}
+.gmail {
+	border-radius:0;
+}
+.subscribe {
+	margin: 0;
+	color: #ffffff;
+	background-color: #dd0f0f;
+}
+
+.end{
+	height: 105px;
+	width: auto;
+	text-decoration-line: none;
+	list-style: none;
+	background-color: #383232;
+}
+.end h6{
+	margin: 0 10px 10px 0; 
+	color: #ffffff;
+}
+
+.rent {
+	word-spacing: 2px;
+	position:absolute;
+	top: 1970px;
+	left: 220px;
+}
+.home {
+	word-spacing: 5px;
+	position:absolute;
+	top: 1970px;
+	left: 355px;
+}
+.about {
+	word-spacing: 5px;
+	position:absolute;
+	top: 1970px;
+	left: 410px;
+}
+.products {
+	word-spacing: 5px;
+	position:absolute;
+	top: 1970px;
+	left: 470px;
+}
+.faq {
+	word-spacing: 5px;
+	position:absolute;
+	top: 1970px;
+	left: 560px;
+}
+.contacts {
+	word-spacing: 5px;
+	position:absolute;
+	top: 1970px;
+	left: 600px;
+}
+.end h6:nth-child(2) {
+	list-style-type: disc;
+}
+.social-media-links {
+	position: absolute;
+	top: 1970px;
+	left: 800px;
 }
